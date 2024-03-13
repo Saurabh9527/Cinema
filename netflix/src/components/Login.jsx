@@ -24,13 +24,11 @@ const Login = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
-    // console.log(name , email , password);
     setLoading(true);
 
     if (isLogin) {
       try {
-        //~ Login
-        //const user = { email, password };
+
         const res = await axios.post(`${API_END_POINT}/login`, { email, password },
           {
             withCredentials: true,
@@ -39,7 +37,7 @@ const Login = () => {
             },
           });
 
-        // console.log(res);
+     
         if (res.data.success) {
           toast.success(res.data.message)
           navigate("/browse");     
@@ -47,15 +45,14 @@ const Login = () => {
         dispatch(addUser(res.data.user))
 
       } catch (error) {
-        // console.log(error.response.data.message); // ~invalid email or password (message)
+
         toast.error(error.response.data.message)
       }finally{
           setLoading(false)
       }
     } else {
       try {
-        //~SignUp
-        // const user = { fullName, email, password };
+
         setLoading(true);
         const res = await axios.post(`${API_END_POINT}/register`, { fullName, email, password },
           {
@@ -64,7 +61,7 @@ const Login = () => {
               "Content-Type": "application/json",
             },
           });
-        // console.log(res);
+  
 
         if (res.data.success) {
           toast.success(res.data.message)
@@ -72,7 +69,7 @@ const Login = () => {
         }
 
       } catch (error) {
-        // console.log(error.response.data.message); // ~invalid email or password (message)
+ 
         toast.error(error.response.data.message)
       }finally{
         setLoading(false)
