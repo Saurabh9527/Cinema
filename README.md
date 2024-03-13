@@ -47,6 +47,6 @@ ________________________________________________________________________________
 
 3.Search Functionality:
 
- .Use the search bar to find movies.
+ .Use the search bar to find movies
  .Select your preferred language for searching movies.
 
