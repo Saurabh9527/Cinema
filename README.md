@@ -7,15 +7,16 @@
 .User Authentication: Implemented user login, sign up, and logout functionality.
 
 .Backend Technologies:
-  .Node.js and Express for server-side logic.
+  ▪️ Node.js and Express for server-side logic.
   
-  .MongoDB for storing user details.
+  ▪️MongoDB for storing user details.
   
   .Bcryptjs for password hashing.
   
   .Jsonwebtoken and cookie parser for authentication.
 
 .Frontend Technologies:
+
   .React.js for building the user interface.
   
   .Redux Toolkit for state management.
