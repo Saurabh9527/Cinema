@@ -8,8 +8,11 @@
 
 .Backend Technologies:
   .Node.js and Express for server-side logic.
+  
   .MongoDB for storing user details.
+  
   .Bcryptjs for password hashing.
+  
   .Jsonwebtoken and cookie parser for authentication.
 
 .Frontend Technologies:
