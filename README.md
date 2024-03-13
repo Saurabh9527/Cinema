@@ -17,18 +17,23 @@
 
 .Frontend Technologies:
   .React.js for building the user interface.
+  
   .Redux Toolkit for state management.
+  
   .React Router for client-side routing.
+  
   .Tailwind CSS for styling.
 
 .Movie Data: Utilized TMDB API to fetch movie data.
 
 .Movie Browsing:
   .Displays Now Playing, Popular, Top Rated, and Upcoming movies.
+  
   .Users can view movie details and watch Trailers.
 
 .Search Functionality:
   .Users can search for movies using OpenAI API.
+  
   .Multi-language support (English, Hindi, Marathi) for searching movies.
 
 .Responsive Design: Optimized for both mobile and desktop screens.
@@ -40,12 +45,15 @@ ________________________________________________________________________________
 1.User Authentication:
 
  .Navigate to the sign-up page to create a new account.
+ 
  .Log in using your credentials.
+ 
  .Log out when done.
 
 2.Movie Browsing:
 
  .Explore different categories of movies such as Now Playing, Popular, etc.
+ 
  .Click on a movie to view its details and watch the Trailer.
 
 3.Search Functionality:
