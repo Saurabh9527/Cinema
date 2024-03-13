@@ -6,59 +6,59 @@
 ## Features 🚀
 .User Authentication: Implemented user login, sign up, and logout functionality.
 
-.Backend Technologies:
-  ▪️ Node.js and Express for server-side logic.
+➡️ Backend Technologies:
+  . Node.js and Express for server-side logic.
   
-  ▪️MongoDB for storing user details.
+  . MongoDB for storing user details.
   
-  .Bcryptjs for password hashing.
+  . Bcryptjs for password hashing.
   
-  .Jsonwebtoken and cookie parser for authentication.
+  . Jsonwebtoken and cookie parser for authentication.
 
-.Frontend Technologies:
+➡️ Frontend Technologies:
 
-  .React.js for building the user interface.
+  . React.js for building the user interface.
   
-  .Redux Toolkit for state management.
+  . Redux Toolkit for state management.
   
-  .React Router for client-side routing.
+  . React Router for client-side routing.
   
-  .Tailwind CSS for styling.
+  . Tailwind CSS for styling.
 
-.Movie Data: Utilized TMDB API to fetch movie data.
+➡️ Movie Data: Utilized TMDB API to fetch movie data.
 
-.Movie Browsing:
-  .Displays Now Playing, Popular, Top Rated, and Upcoming movies.
+➡️ Movie Browsing:
+  . Displays Now Playing, Popular, Top Rated, and Upcoming movies.
   
-  .Users can view movie details and watch Trailers.
+  . Users can view movie details and watch Trailers.
 
-.Search Functionality:
-  .Users can search for movies using OpenAI API.
+➡️ Search Functionality:
+  . Users can search for movies using OpenAI API.
   
-  .Multi-language support (English, Hindi, Marathi) for searching movies.
+  . Multi-language support (English, Hindi, Marathi) for searching movies.
 
-.Responsive Design: Optimized for both mobile and desktop screens.
+➡️ Responsive Design: Optimized for both mobile and desktop screens.
 
 ________________________________________________________________________________________________________
 
 ## Usage 🎬
 
-1.User Authentication:
+➡️ User Authentication:
 
- .Navigate to the sign-up page to create a new account.
+ . Navigate to the sign-up page to create a new account.
  
- .Log in using your credentials.
+ . Log in using your credentials.
  
- .Log out when done.
+ . Log out when done.
 
-2.Movie Browsing:
+➡️ Movie Browsing:
 
- .Explore different categories of movies such as Now Playing, Popular, etc.
+ . Explore different categories of movies such as Now Playing, Popular, etc.
  
- .Click on a movie to view its details and watch the Trailer.
+ . Click on a movie to view its details and watch the Trailer.
 
-3.Search Functionality:
+➡️ Search Functionality:
 
- .Use the search bar to find movies
- .Select your preferred language for searching movies.
+ . Use the search bar to find movies
+ . Select your preferred language for searching movies.
 
