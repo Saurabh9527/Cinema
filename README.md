@@ -84,13 +84,16 @@ ________________________________________________________________________________
 ![Movie_Details](https://github.com/Saurabh9527/ReactJS-Netflix-Clone/assets/136837795/a26d65a7-faaa-46b7-88f8-3ffdb79c9082)
 
 
+![Trailer_Page](https://github.com/Saurabh9527/ReactJS-Netflix-Clone/assets/136837795/923f09ec-ff9b-4d9f-82b4-1a82079a0dcb)
+
+
 ![Movies_Search](https://github.com/Saurabh9527/ReactJS-Netflix-Clone/assets/136837795/1b11ad85-7f14-405a-ac61-a0a5ffc084d5)
 
 
 ![Movie_Search_Page](https://github.com/Saurabh9527/ReactJS-Netflix-Clone/assets/136837795/ff88c49a-d62e-4d74-94b9-f31a89cabf79)
 
 
-![Trailer_Page](https://github.com/Saurabh9527/ReactJS-Netflix-Clone/assets/136837795/923f09ec-ff9b-4d9f-82b4-1a82079a0dcb)
+
 
 
 
