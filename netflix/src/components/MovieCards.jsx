@@ -48,8 +48,6 @@ const MovieCards = ({ posterPath, movieId, title, release_date , rating , popula
     fetchTrailer();
   } , [id])
 
-
-
   return (
     <>
       <img className='w-48 p-2 rounded-2xl'
