@@ -20,7 +20,6 @@ const Header = () => {
   const handleLogout = async () =>{
     try {
       const res = await axios.get(`${API_END_POINT}/logout`);
-      // console.log(res);
 
       if(res.data.success){
         toast.success(res.data.message)
@@ -37,7 +36,6 @@ const Header = () => {
   }
 
   const handleSelectOptions = (e) =>{
-    // console.log(e.target.value);
     dispatch(addLanguage(e.target.value))
   }
 

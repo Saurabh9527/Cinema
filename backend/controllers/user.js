@@ -2,11 +2,10 @@ import { User } from "../models/userModel.js";
 import bcryptjs from "bcryptjs";
 import jwt from 'jsonwebtoken'
 
-//& ---------Login Logic---------
 
 export const Login = async (req, res) => {
   try {
-    const { email, password } = req.body; //~check all data filled or not
+    const { email, password } = req.body; 
     if (!email || !password) {
       return res.status(401).json({
         message: "Incomplete credentials.",
@@ -14,7 +13,7 @@ export const Login = async (req, res) => {
       });
     }
 
-    const user = await User.findOne({ email }); //~ check email is present in database
+    const user = await User.findOne({ email }); 
 
     if (!user) {
       return res.status(401).json({
@@ -23,7 +22,7 @@ export const Login = async (req, res) => {
       });
     }
 
-    const isMatch = await bcryptjs.compare(password, user.password); //~ password Check Correct or not
+    const isMatch = await bcryptjs.compare(password, user.password); 
 
 
     if (!isMatch) {
@@ -33,12 +32,11 @@ export const Login = async (req, res) => {
       });
     }
 
-    //~if all good email and passowrd matched
     const tokenData ={
         id : user._id
     }
 
-    //~ generetae token
+
     const token = await jwt.sign(tokenData , "gsdhgsdsksdgfsdkskdkhsd" , {expiresIn:"1d"});
 
     const userResponse = {
@@ -57,9 +55,9 @@ export const Login = async (req, res) => {
   }
 };
 
-//& ---------Logout Logic---------
+
 export const Logout = async (req , res) =>{
-                                         //~Clear Cookie            
+                                                 
     return res.status(200).cookie("token" , "" , {expiresIn : new Date(Date.now()), httpOnly:true}).json({
         message :"Logged Out Successfully",
         success : true
@@ -67,10 +65,10 @@ export const Logout = async (req , res) =>{
 };
 
 
-//& ---------Register Logic---------
+
 export const Register = async (req, res) => {
   try {
-    const { fullName, email, password } = req.body; //~check all data filled or not
+    const { fullName, email, password } = req.body; 
 
     if (!fullName || !email || !password) {
       return res.status(400).json({
@@ -79,7 +77,7 @@ export const Register = async (req, res) => {
       });
     }
 
-    const user = await User.findOne({ email }); // ~check email already used or not
+    const user = await User.findOne({ email }); 
     if (user) {
       return res.status(409).json({
         message: "email already registered",
@@ -87,9 +85,9 @@ export const Register = async (req, res) => {
       });
     }
 
-    //~ password hashing
+    
     const hashedPassword = await bcryptjs.hash(password, 16);
-    //~ user created
+   
     await User.create({
       fullName,
       email,

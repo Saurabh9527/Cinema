@@ -6,7 +6,7 @@ import cookieParser from 'cookie-parser'
 import userRoute from './routes/userRoute.js'
 import cors from 'cors'
 
-databaseConnection();  //* database Connection
+databaseConnection();  
 dotenv.config()
 
 const app = express()
@@ -16,7 +16,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 app.use(cookieParser());
 
-const corsOptions = { //~ for cookies save
+const corsOptions = { 
     origin : "http://localhost:5174",
     credentials : true
 }
@@ -24,12 +24,7 @@ const corsOptions = { //~ for cookies save
 app.use(cors(corsOptions));
 
 app.use("/api/v1/user" , userRoute);
-// app.get("/" , (req , res) => {
-//     res.status(200).json({
-//         message:"Hello I am coming from backend",  //~test on chrome http://localhost:8080/
-//         success:true
-//     })
-// })
+
 
 app.listen(port , () =>{
     console.log(`Server is Listing ${port}`);

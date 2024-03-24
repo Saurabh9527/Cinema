@@ -4,8 +4,6 @@ import { useSelector } from 'react-redux'
 import MovieCards from './MovieCards';
 
 const MovieList = ({ title, movies }) => {
-    // console.log(title);
-    // console.log(movies);
     if (!movies) return;
     return (
         <div className='my-20 md:mx-6 md:mb-6' >

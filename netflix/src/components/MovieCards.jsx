@@ -43,7 +43,6 @@ const MovieCards = ({ posterPath, movieId, title, release_date , rating , popula
       const data = await fetch(`https://api.themoviedb.org/3/movie/${id}/videos?language=en-US`, options)
       const res = await data.json();
       const trailer = res.results.filter((m)=>m.type === "Trailer")
-      // console.log(trailer);
       dispatch(addAllMovieTrailer(trailer.length > 0 ? (trailer[0]) : (trailer[0])))
     }
     fetchTrailer();
@@ -60,7 +59,6 @@ const MovieCards = ({ posterPath, movieId, title, release_date , rating , popula
       />
 
       <Dialog open={isDialogOpen} onClose={handleCloseDialog} className= 'mt-[25%] md:mt-0'>
-        {/* Add your dialog content here */}
         <DialogTitle>Movie Details</DialogTitle>
         <DialogContent>
 

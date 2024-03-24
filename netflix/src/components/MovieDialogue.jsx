@@ -9,7 +9,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { setOpen } from '../features/movie/movieSlice';
 
 export default function MovieDialog() {
-//   const [open, setOpen] = React.useState(false);
 const dispatch = useDispatch();
 
   const open = useSelector((store)=>store?.movie?.setOpen)
