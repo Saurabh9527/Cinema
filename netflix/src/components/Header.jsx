@@ -9,6 +9,7 @@ import toast from 'react-hot-toast';
 import { toggleSearchButton } from '../features/search/searchSlice.js'
 import { supportLanguage } from '../util/constant'
 import { addLanguage } from '../features/language/languageSlice.js'
+import LogoMovie from '../util/Logo.jpg'
 
 const Header = () => {
 
@@ -41,7 +42,7 @@ const Header = () => {
 
   return (
     <div className='pt-2 md:pt-0 flex justify-between z-10 items-center bg-gradient-to-b from-blue-950 w-full absolute'>
-      <img className='w-32 md:w-48 md:ml-5 md:mt-2' src={logo} alt="" />
+      <img className='w-32 md:w-48 md:ml-5 md:mt-2' src={LogoMovie} alt="" />
       <div className='flex mr-2'>
         { user && (
         <>

@@ -94,7 +94,7 @@ const Login = () => {
 
         {
           isLogin ?
-            <p>New to Netflix <span className='cursor-pointer text-blue-700' onClick={handleClick}>Sign up</span></p>
+            <p>New to Cinema <span className='cursor-pointer text-blue-700' onClick={handleClick}>Sign up</span></p>
             :
             <p>Already Have Account ? <span className='cursor-pointer text-blue-700' onClick={handleClick}>Sign in</span></p>
         }
