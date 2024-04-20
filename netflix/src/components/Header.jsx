@@ -9,7 +9,7 @@ import toast from 'react-hot-toast';
 import { toggleSearchButton } from '../features/search/searchSlice.js'
 import { supportLanguage } from '../util/constant'
 import { addLanguage } from '../features/language/languageSlice.js'
-import LogoMovie from '../util/Logo.jpg'
+import LogoMovie from '../util/MovieLogo.jpg'
 
 const Header = () => {
 
