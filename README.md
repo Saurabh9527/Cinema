@@ -1,7 +1,7 @@
 
-## Netflix UI Clone
+## Cinema UI 
 
-- This project is a clone of the Netflix user interface, featuring user authentication, movie browsing, and search functionalities.
+- Cinema: Your all-in-one movie hub. Seamlessly integrates ReactJS, Node.js, MongoDB, and APIs like TMDB and OpenAI for a dynamic movie experience with authentication, trailers, and advanced search.
 
 ## Features 🚀
 
@@ -66,31 +66,27 @@ ________________________________________________________________________________
  ## Screenshots 📷
 
 
-![Login_Page](https://github.com/Saurabh9527/ReactJS-Netflix-Clone/assets/136837795/4d6d043a-bd28-493d-bad3-c4af8bbebab4)
+![LoginPage](https://github.com/Saurabh9527/Cinema/assets/136837795/e3068897-01ef-4290-8bde-1bc4f5209ed1)
+
+![LogoutPage](https://github.com/Saurabh9527/Cinema/assets/136837795/9850b96c-df69-4349-81f3-67633638b041)
+
+![HomePage1](https://github.com/Saurabh9527/Cinema/assets/136837795/bb53543b-c9f4-44ba-a1a0-848d9872b48f)
+
+![HomePage2](https://github.com/Saurabh9527/Cinema/assets/136837795/e18e0d1d-d26a-466a-8b7b-57d82aeb37bf)
+
+![HomePage3](https://github.com/Saurabh9527/Cinema/assets/136837795/ec83210e-0bcb-474f-856a-8495761735e6)
+
+![HomePage4](https://github.com/Saurabh9527/Cinema/assets/136837795/fbd34a66-0740-4239-857e-84b151494bdd)
+
+![MovieDetails](https://github.com/Saurabh9527/Cinema/assets/136837795/ad4ef1ce-0ce9-44b0-8ed5-846b751a7f3f)
+
+![TrailerPage](https://github.com/Saurabh9527/Cinema/assets/136837795/81507b26-f721-47a5-b3be-cc04692a96df)
+
+![SearchPage](https://github.com/Saurabh9527/Cinema/assets/136837795/1a0c90c7-f7a1-4208-924f-7d059202af9f)
+
+![SearchPage2](https://github.com/Saurabh9527/Cinema/assets/136837795/979bc64e-5cf7-4ea4-8f38-7ef8db2e9309)
 
 
-![Sign_Up_Page](https://github.com/Saurabh9527/ReactJS-Netflix-Clone/assets/136837795/71881d80-8828-44e9-bdc8-f374792f8db6)
-
-
-![Home_Page](https://github.com/Saurabh9527/ReactJS-Netflix-Clone/assets/136837795/ecde65b8-980d-4fbc-b635-7b0f61ca25fc)
-
-
-![Movies_Page](https://github.com/Saurabh9527/ReactJS-Netflix-Clone/assets/136837795/31f8bd93-8429-46a1-825f-afab0fad3b2b)
-
-
-![Movies_Page2](https://github.com/Saurabh9527/ReactJS-Netflix-Clone/assets/136837795/0baa6c72-8ffc-4b5f-866c-751a89fb5a37)
-
-
-![Movie_Details](https://github.com/Saurabh9527/ReactJS-Netflix-Clone/assets/136837795/a26d65a7-faaa-46b7-88f8-3ffdb79c9082)
-
-
-![Trailer_Page](https://github.com/Saurabh9527/ReactJS-Netflix-Clone/assets/136837795/923f09ec-ff9b-4d9f-82b4-1a82079a0dcb)
-
-
-![Movies_Search](https://github.com/Saurabh9527/ReactJS-Netflix-Clone/assets/136837795/1b11ad85-7f14-405a-ac61-a0a5ffc084d5)
-
-
-![Movie_Search_Page](https://github.com/Saurabh9527/ReactJS-Netflix-Clone/assets/136837795/ff88c49a-d62e-4d74-94b9-f31a89cabf79)
 
 
 
